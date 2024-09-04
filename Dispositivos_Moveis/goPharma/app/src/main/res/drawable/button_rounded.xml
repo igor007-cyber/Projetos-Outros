@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="20dp"/> <!-- Raio dos cantos do EditText -->
+    <gradient android:startColor="#1595dd"
+        android:endColor="#22c2c6"
+        android:angle="45" />
+</shape>

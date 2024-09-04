@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_marginTop="144dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="10dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="GoPharma"
+        android:textColor="#22c2c6"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="Entrar com sua conta:"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:drawableStart="@drawable/icon_user"
+        android:hint="  Usuário"
+        style="@style/EditTextStyle"/>
+
+    <EditText
+        android:drawableStart="@drawable/icon_lock"
+        android:hint="   Senha"
+        style="@style/EditTextStyle"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginTop="70dp">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/ButtonsLogins"
+            android:text="Entrar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Você não criou a sua conta? Crie agora"
+        android:layout_marginTop="100dp"
+        android:textSize="16dp"/>
+
+
+
+
+</LinearLayout>

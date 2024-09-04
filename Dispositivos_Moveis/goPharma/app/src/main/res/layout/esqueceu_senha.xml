@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="144dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="Redefinir Senha"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="Informe o seu E-mail para redefinir a senha:"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/redefinirEmail"
+        android:drawableStart="@drawable/icon_email"
+        android:hint="   E-mail"
+        style="@style/EditTextStyle"/>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ButtonsLogins"
+        android:text="Redefir" />
+
+
+</LinearLayout>
