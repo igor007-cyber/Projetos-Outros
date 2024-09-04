@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="action_settings">Configuração</string>
+    <string name="action_other">Lista</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="result">Result</string>
+    <string name="button_execute">Execute</string>
+    <string name="message">Your name is %1$s and you are %2$s years old.</string>
+</resources>
