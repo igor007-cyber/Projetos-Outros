@@ -1,0 +1,1 @@
+export const cyan = '#0097A7'

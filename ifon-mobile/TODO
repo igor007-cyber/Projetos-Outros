@@ -1,0 +1,7 @@
+[ ] Fix Login
+[ ] Fix Logout
+[ ] Put refresh token into axios interceptors
+[ ] Install eslint and prettier
+[ ] Change refresh Token Startegy
+[ ] Update project libs
+[ ] Setup with enviropnmet variables

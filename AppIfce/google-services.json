@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "475824868320",
+    "firebase_url": "https://ifon-notifications.firebaseio.com",
+    "project_id": "ifon-notifications",
+    "storage_bucket": "ifon-notifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475824868320:android:01d2cd817bd47ae0af7985",
+        "android_client_info": {
+          "package_name": "com.ifce.ifon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475824868320-084psva34rkf2qauo4cocmtei1k761lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFT_T98QGsuy2vsLeGYMx6m2Quf2Rk7qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475824868320-084psva34rkf2qauo4cocmtei1k761lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
